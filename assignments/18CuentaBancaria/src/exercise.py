@@ -7,7 +7,7 @@ def main():
 
     saldo_final = (saldo + ingresos - egresos - cheques * 13) * 0.925
 
-    print('El saldo final de la cuenta es: ', saldo_final)
+    print('El saldo final de la cuenta es:', saldo_final)
 
 
 if __name__ == '__main__':
