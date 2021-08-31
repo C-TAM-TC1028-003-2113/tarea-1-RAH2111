@@ -3,6 +3,8 @@ def main():
     harina = float(input("Dame la harina en gramos: "))
     levadura = harina * 50 / 1000
 
+    levadura = (int(levadura * 10)) / 10
+
     print("Necesitas estos gramos de levadura:", levadura)
 
 
